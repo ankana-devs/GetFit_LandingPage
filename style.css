@@ -17,10 +17,11 @@
     box-sizing: content-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
-    /* position: fixed;
-    z-index: 50;
-    width: 100%; */
     background-color: var(--navBg);
     color: var(--fontCol1);
     font-family: var(--fontFam1);
